@@ -1,0 +1,223 @@
+html,body,div,h1,ul,li,img,h2,span,textarea,input,button,p{
+	margin: 0;
+	padding: 0;
+	border:none;
+}
+body{
+	min-width: 920px;
+	font-family: 'Microsoft YaHei';
+}
+body>div{
+	width: 920px;
+	margin: 0 auto;
+}
+h1{
+	font-size: 30px;
+	
+	text-align: center;
+	margin-top: 40px;
+}
+h2{
+	font-size: 18px;
+	color: #969696;
+	text-align: center;
+	cursor: pointer;
+	height: 30px;
+	padding-top: 30px;
+}
+h2 img{
+	width: 29px;
+	height: 21px;
+	position: relative;
+	top: 5px;
+}
+li{
+	list-style: none;
+}
+.person{
+	width: 100%;
+	margin-top: 50px;
+
+}
+.person>li,.news li,.know li{
+	color: #D02F2F;
+	font-size: 15px;
+
+	/*height: 422px;*/
+	line-height: 66px;
+	border-bottom: 1px solid #9F9F9F;
+	padding: 0 20px;
+}
+
+.person>li .jian .center,.news .open,.know .open{
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.person>li .jian .center>img,.news .open img,.know .open img{
+	width: 18px;
+	height: 12px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.person>li .jian .left{
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+}
+.person>li .jian .right,.news .del,.know .del{
+	cursor: pointer;
+}
+.person>li .jian .right>img,.news .del img,.know .del img{
+	width: 12px;
+	height: 11px;
+}
+.person .more{
+	width: 100%;
+	height: 290px;
+	clear: both;
+	display: none;
+}
+
+.person .more .top .right{
+	width: 152px;
+	height: 170px;
+	border:1px solid #9F9F9F;
+}
+.person .more .top .right li{
+	height: 18px;
+	line-height: 18px;
+	margin-top: 5px;
+	border: none;
+	font-size: 14px;
+	color: #c8c8c8;
+	margin-left: 15px;
+}
+.person .more .top .inputCon{
+
+	float: left;
+	width: 700px;
+}
+.person .more .top .inputCon li{
+	float: left;
+
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #969696;
+	width: 165px;
+}
+#w{
+	width: 205px;
+	white-space: nowrap;
+}
+.person .more .top span{
+	color: #3F71C8;
+}
+.liuyan{
+	font-size: 14px;
+	color: #969696;
+}
+.liuyan span{
+	width: 610px;
+	height: 120px;
+	display: block;
+	float: right;
+	margin-top: 20px;
+	line-height: 20px;
+	padding: 10px;
+	margin-left: 20px;
+	text-indent: 2em;
+	padding-top: 3px;
+	overflow: hidden;
+}
+.person .bottom{
+	clear: both;
+	font-size: 14px;
+	color: #969696;
+	position: relative;
+}
+.person .bottom textarea{
+	width: 780px;
+	height: 80px;
+	display: block;
+	float: right;
+	margin-top: 20px;
+	line-height: 20px;
+	padding: 10px;
+	padding-top: 3px;
+	border: 1px solid #9F9F9F;
+	resize:none;
+}
+.forms{
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 30px;
+	margin-top: 50px;
+	line-height: 31px;
+}
+.forms input{
+	width: 708px;
+	border: 2px solid #12FF12;
+	margin-left: 30px;
+	height: 31px;
+	margin-bottom: 30px;
+	padding-left: 10px;
+}
+.forms textarea{
+	float: right;
+	width: 698px;
+	border: 2px solid #12FF12;
+	margin-right: 102px;
+	height: 264px;
+	padding: 10px;
+	resize:none;
+}
+
+.forms button{
+	width: 175px;
+	height: 43px;
+	background-color: #FD5E5E;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 580px;
+}
+.news ul,.know ul{
+	margin-top: 50px;
+}
+.news .title,.know .title{
+	color: #828282;
+}
+.news .more,.know .more{
+	clear: both;
+	padding-left: 30px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #828282;
+	width: 90%;
+	display: none;
+}
+.news .more p,.know .more p{
+	text-indent: 2em;
+	margin-bottom: 30px;
+}
+.clear{
+	clear: both;
+}
+.know{
+	margin-top: 150px;
+}
+.but{
+	width: 60px;
+	height: 25px;
+	position: absolute;
+	top: 80px;
+	left: 0px;
+}
